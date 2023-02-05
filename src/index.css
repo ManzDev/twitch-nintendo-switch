@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Highway Gothic Expanded";
+  src:
+    url("fonts/highway-exp.woff2") format("woff2"),
+    url("fonts/highway-exp.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Highway Gothic";
+  src:
+    url("fonts/highway.woff2") format("woff2"),
+    url("fonts/highway.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  background: #823;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
